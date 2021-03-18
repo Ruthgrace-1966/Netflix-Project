@@ -29,7 +29,7 @@ class Movies extends Component {
                     return(
                         <div>
                             <p>{movie.title}</p>
-                            <Link to={{pathname:`singleMovie /${movie.id}`, state:movie}}><button>View Movie</button></Link>
+                            <Link to={{pathname:`singleMovie/${movie.id}`, state:movie}}><button>View Movie</button></Link>
                         </div>
                     )
                 })}

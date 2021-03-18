@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './singleMovie.styles.css'
+import './singlemovie.styles.css'
 
 class SingleMovie extends Component {
     
